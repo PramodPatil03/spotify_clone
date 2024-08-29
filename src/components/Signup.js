@@ -18,14 +18,14 @@ function Signup() {
                   <button>Next</button>
                 </form>
                 
-                <hr />
+                <hr className='hr'  />
                 <div className="anchor-holder">
                   <Link to="/login"><img src={logo} alt="" />Sign up with Google</Link>
                   <Link to="/login"><img src={logo} alt="" />Sign up with Facebook</Link>
                   <Link to="/login"><img src={logo} alt="" />Sign up with Apple</Link>
                   <Link to="/login">Sign up with phone number</Link>
                 </div>
-                <hr />
+                <hr className='hr'  />
                 <Link className='forgot-pass' to="/login">Already have an account? Log in here.</Link>
             </div>
         </div>

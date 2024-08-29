@@ -15,9 +15,9 @@ function Navbar() {
     <div className="leftHolder backDark">
           <nav className='navbar-left'>
             <ul className='leftNav'>
-              <li className='nav-item'><img src={spotify} alt="" className="nav-item-img" /><a href="/">Spotify</a></li>
-              <li className='nav-item'><img src={home} alt="" className="nav-item-img" /><a href="/">Home</a></li>
-              <li className='nav-item'><img src={search} alt="" className="nav-item-img" /><a href="/">Search</a></li>
+              <li className='nav-item'><img src={spotify} alt="" className="nav-item-img" /><Link to="/">Spotify</Link></li>
+              <li className='nav-item'><img src={home} alt="" className="nav-item-img" /><Link to="/">Home</Link></li>
+              <li className='nav-item'><img src={search} alt="" className="nav-item-img" /><Link to="/">Search</Link></li>
             </ul>
           </nav>
           <section className='leftSection'>
@@ -38,12 +38,12 @@ function Navbar() {
             </div>
             <div className="leftSectionBottom">
               <div className='contents'>
-                <p>Jello</p>
-                <p>jalagara movie</p>
-                <p>Bhau</p>
-                <p>Jello</p>
-                <p>jalagara</p>
-                <p>Bhau</p>
+                <p>About</p>
+                <p>Contact</p>
+                <p>Spotify</p>
+                <p>Global</p>
+                <p>Support</p>
+                <p>Other</p>
               </div>
               <div className="langBtn">
                 <button> <img src={globe} alt="Lang" className='icon-image' /> {language}</button>
