@@ -1,0 +1,258 @@
+.artist-info {
+    padding: 20px;
+    display: flex;
+}
+
+.artist-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+h2{
+    color: white;
+    padding-left: 20px;
+    line-height: 50px;
+}
+
+.artist-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 10px;
+    padding: 20px;
+}
+
+.artist-details p:nth-child(1) {
+    font-size: 4em;
+}
+
+.artist-details p:last-child {
+    font-size: 1em;
+}
+
+.artist-details p {
+    color: white;
+    font-size: 1.5em;
+}
+
+.artist-other {
+    width: 100%;
+    height: 400px;
+    background-image: linear-gradient(rgb(156, 39, 39), rgb(59, 59, 59) 20vh);
+    overflow: hidden;
+    overflow-y: scroll;
+    margin-bottom: 30px;
+}
+.artist-other::-webkit-scrollbar{
+    display: none;
+}
+.follow-holder {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    height: 75px;
+}
+
+.play-button {
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.play-button img {
+    height: 40px;
+    width: 40px;
+    transition: 0.5s;
+}
+
+.play-button img:hover {
+    height: 45px;
+    width: 45px;
+}
+
+.follow-button {
+    display: inline-block;
+    height: 30px;
+    width: 70px;
+    border: 1px solid white;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 30px;
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    color: white;
+}
+
+.follow-button:hover {
+    background-color: green;
+    color: black;
+}
+
+.more-dots {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.round-dot {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: rgb(153, 149, 149);
+}
+
+#hidden-artist-three-dots {
+    position: relative;
+    display: none;
+    height: 200px;
+    width: 200px;
+    margin-top: 200px;
+    background-color: rgb(27, 28, 27);
+    color: white;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#hidden-artist-three-dots li {
+    list-style: none;
+    height: 30px;
+    line-height: 30px;
+    cursor: pointer;
+    padding: 0 10px;
+    border-radius: 3px;
+}
+
+#hidden-artist-three-dots li:hover {
+    background-color: rgb(65, 63, 63);
+}
+
+.artists-music {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 5px;
+    gap: 5px;
+}
+
+.music-info {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    color: white;
+    border-radius: 5px;
+}
+.music-info:hover{
+    background-color: rgb(117, 116, 116);
+}
+
+.music-info:hover .music-id{
+display: none;
+}
+.music-info:hover .music-info-play{
+display: block;
+}
+.music-info:hover .hidden-item{
+    visibility: visible;
+}
+
+.music-info-left{
+    width: 50%;
+    display: flex;
+}
+.music-info-right{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.music-info-right-right{
+    display: flex;
+    width: 200px;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+.music-info-more{
+    width: 3px;
+    height: 3px;
+    background-color: bisque;
+    border-radius: 50%;
+}
+.img-30 {
+    width: 25px;
+    height: 25px;
+}
+.img-30:hover{
+    height: 30px;
+    width: 30px;
+}
+
+.music-id {
+    min-height: 40px;
+    min-width: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+
+
+.music-banner {
+    width: 40px;
+    height: 40px;
+}
+
+.music-name{
+    height: 40px;
+    width: 100%;
+    padding-left: 20px;
+    text-align: start;
+    line-height: 40px;
+    font-weight: 700;
+}
+.music-info-play{
+    display: none;
+    margin: 5px;
+}
+.music-plays{
+    height: 40px;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hidden-item{
+    visibility: hidden;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.music-artist{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    padding-left: 20px;
+}
+.artist-name{
+    font-size: 1.2em;
+    color: white;
+    margin: 10px 0 ;
+    margin-left: 20px;
+    font-weight: 800;
+}
+.artist-image{
+    width: 40px;
+    height: 40px;
+}

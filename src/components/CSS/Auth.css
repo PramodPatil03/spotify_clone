@@ -1,0 +1,111 @@
+.flex-center{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 2%;
+    background-color: rgb(27,28,27);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.flex-center::-webkit-scrollbar{
+    display: none;
+}
+
+.type-holder{
+    color: white;
+    width: 50%;
+    padding: 20px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(16, 16, 16);
+    border-radius: 10px;
+}
+.type-holder img{
+    height: 40px;
+    width: 40px;
+}
+.type-holder>p{
+    font-size: 2.6em;
+    font-weight: 700;
+}
+
+.anchor-holder{
+    width: 50%;
+    height: 240px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.anchor-holder a{
+    font-size: 1em;
+    font-weight: 600;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    border: 2px solid rgb(173, 173, 173);
+}
+.anchor-holder a:hover{
+    border: 2px solid white;
+}
+.anchor-holder a img{
+    width: 30px;
+    height: 30px;
+}
+
+hr{
+    width: 75%;
+    margin-top: 30px;
+}
+
+.form{
+    width: 50%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    gap: 20px;
+}
+.form input{
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    font-size: 1em;
+    font-weight: 600;
+    border: 2px solid white;
+    padding-left: 10px;
+    border-radius: 3px;
+}
+.form button{
+    width: 100%;
+    height: 50px;
+    background-color: green;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 800;
+    border-radius: 30px;
+}
+
+.forgot-pass{
+    margin-top: 20px;
+}
+.forgot-pass:last-child{
+    margin: 40px 0;
+}

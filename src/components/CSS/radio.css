@@ -1,0 +1,14 @@
+.radio-home{
+    background: linear-gradient(red ,rgb(59, 59, 59) 50vh);
+}
+.radio-others{
+    background-color: rgba(1, 1, 1, 0.3);
+}
+
+.fav-holder{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
