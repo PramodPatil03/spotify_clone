@@ -8,6 +8,7 @@ import search from './Images/search.png'
 import library from './Images/library_icon.png'
 import plusIcon from './Images/Plus.png'
 import globe from './Images/globe.png'
+import { Link } from 'react-router-dom'
 
 function Navbar() {
   const language = 'English'
