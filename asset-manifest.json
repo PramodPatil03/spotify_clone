@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "./static/css/main.1c3eb272.css",
+    "main.js": "./static/js/main.01f48140.js",
+    "static/media/Nunito-SemiBold.ttf": "./static/media/Nunito-SemiBold.ae592fe018d712c287a2.ttf",
+    "static/media/logo.png": "./static/media/logo.6620a777b2ebed92f4e4.png",
+    "static/media/play.png": "./static/media/play.cec668ddae3d236e8881.png",
+    "index.html": "./index.html",
+    "main.1c3eb272.css.map": "./static/css/main.1c3eb272.css.map",
+    "main.01f48140.js.map": "./static/js/main.01f48140.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1c3eb272.css",
+    "static/js/main.01f48140.js"
+  ]
+}
