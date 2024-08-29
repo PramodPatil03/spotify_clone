@@ -13,7 +13,7 @@ function Navbar() {
   const language = 'English'
   return (
     <div className="leftHolder backDark">
-          <nav>
+          <nav className='navbar-left'>
             <ul className='leftNav'>
               <li className='nav-item'><img src={spotify} alt="" className="nav-item-img" /><a href="/">Spotify</a></li>
               <li className='nav-item'><img src={home} alt="" className="nav-item-img" /><a href="/">Home</a></li>
